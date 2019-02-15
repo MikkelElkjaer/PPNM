@@ -1,2 +1,2 @@
 # PPNM
-For Practical Programming and Numerical Methods
+For the course: Practical Programming and Numerical Methods
