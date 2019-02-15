@@ -1,0 +1,9 @@
+set term svg
+set out 'plot.svg'
+set xlabel 'x'
+set ylabel 'y'
+set key bottom left
+plot \
+	'data.txt' using 1:2 with points title 'data'\
+	, sin(x) with lines title 'sine function' \
+	, cos(x) with lines title 'cosine function' \
