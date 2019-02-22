@@ -1,3 +1,5 @@
 set terminal svg background 'white'
 set output "plot.svg"
-plot "out.io.txt", "out.cmd.txt"
+plot \
+	"out.io.txt" with lines title 'cos(x)'\
+	, "out.cmd.txt" with lines title 'sin(x)'\
