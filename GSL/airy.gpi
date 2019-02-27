@@ -1,0 +1,4 @@
+set terminal svg background 'white'
+plot [-16:6][-0.6:1.1]\
+	'airy.txt' using 1:2 with lines title 'Ai(x)'\
+	,'airy.txt' using 1:3 with lines title 'Bi(x)'\

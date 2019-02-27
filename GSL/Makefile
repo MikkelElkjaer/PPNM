@@ -1,14 +1,17 @@
 CFLAGS := -Wall -std=gnu99 `gsl-config --cflags`
 LDLIBS := -lm `gsl-config --libs`
 
-all: out.txt
+all: out.txt airy.svg
 	cat $<
 
-out.txt: main input.matrix
-	cat input.matrix | ./main > $@
+out.txt airy.txt: main input.matrix
+	cat input.matrix | ./main 1> $@ 2> airy.txt
 
-main: main.o
+airy.svg: airy.gpi airy.txt
+	gnuplot $< >$@
+
+main: main.o airy.o
 
 
 clean:
-	$(RM) main out.txt *.o
+	$(RM) main out.txt *.o airy.svg airy.txt

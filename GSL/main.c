@@ -3,15 +3,17 @@
 #include<gsl/gsl_vector.h>
 #include<gsl/gsl_linalg.h>
 #include<math.h>
+void airy(void); // rather declare it here than make a .h-file for just one function
 void matrix_print(const char*, gsl_matrix*);
 void vector_print(const char*, gsl_vector*);
 
 int main(){
-	printf("Solve the system of linear equations Ax=b \n");
+	airy(); // make plot of airy functions
+
+	// part II:
 	int size1,size2;
 	scanf("%i",&size1);
 	scanf("%i",&size2);
-	printf("matrix dimensions are: %ix%i\n",size1,size2);
 
 	gsl_matrix* A = gsl_matrix_alloc(size1,size2);
 	gsl_matrix_fscanf(stdin,A);
