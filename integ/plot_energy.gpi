@@ -1,0 +1,2 @@
+set terminal svg background 'white'
+plot 'out.txt' using 1:2 with lines title 'Energy'
