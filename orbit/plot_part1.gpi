@@ -1,0 +1,3 @@
+set terminal svg background 'white'
+plot \
+	'plot_part1.txt' using 1:2 with lines title 'Integrated ode'\
