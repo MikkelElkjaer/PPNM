@@ -7,8 +7,11 @@ double part2(double, double*, double*);
 int main(){
 	//part1:
 	for(double x=0;x<=3;x+=0.1){
-	printf("%g %g \n", x, part1(x));
+	double comparison = 1/(1+exp(-1*(x-1/2)));
+	printf("%g %g %g\n", x, part1(x), comparison);
 	}
+	// MANGLER: comparison with analytic result!! -----------------------------
+	
 
 	//part2:
 
