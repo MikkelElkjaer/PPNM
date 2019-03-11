@@ -3,4 +3,3 @@ plot \
 	'plot_part2.txt' index 0 using (1/$2)*sin($1):(1/$2)*cos($1) with lines title 'Circular Motion'\
 	, 'plot_part2.txt' index 1 using (1/$2)*sin($1):(1/$2)*cos($1) with lines title 'Newtonian Elliptical Motion' \
 	, 'plot_part2.txt' index 2 using (1/$2)*sin($1):(1/$2)*cos($1) with lines title 'Relativistic Precession'
-# make separate plots for the three graphs... how to?
