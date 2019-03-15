@@ -1,0 +1,39 @@
+iter=    1 A=       6 T=       2 B=     1.3 function_to_minimize= 15.7297 size=0.283945
+iter=    2 A=       6 T=       2 B=     1.3 function_to_minimize= 15.7297 size=0.283945
+iter=    3 A= 6.00926 T= 2.23889 B= 1.13889 function_to_minimize= 15.6809 size=0.260049
+iter=    4 A= 6.00926 T= 2.23889 B= 1.13889 function_to_minimize= 15.6809 size=0.197641
+iter=    5 A=  5.2608 T=  2.0787 B= 1.31204 function_to_minimize= 14.5273 size=0.335651
+iter=    6 A= 5.83745 T= 2.17284 B= 1.26173 function_to_minimize= 11.6161 size=0.326184
+iter=    7 A= 5.10751 T= 2.49043 B= 1.11265 function_to_minimize=  9.0206 size= 0.41642
+iter=    8 A= 5.10751 T= 2.49043 B= 1.11265 function_to_minimize=  9.0206 size= 0.34697
+iter=    9 A= 5.69487 T= 2.41384 B=  1.1231 function_to_minimize= 8.28003 size=0.315216
+iter=   10 A= 5.67005 T= 2.27765 B=  1.2008 function_to_minimize= 7.92106 size=0.274466
+iter=   11 A= 5.06126 T=  2.6957 B= 1.06885 function_to_minimize=  4.3704 size=0.338982
+iter=   12 A= 5.06126 T=  2.6957 B= 1.06885 function_to_minimize=  4.3704 size=0.309385
+iter=   13 A= 5.06126 T=  2.6957 B= 1.06885 function_to_minimize=  4.3704 size=0.309385
+iter=   14 A= 5.06126 T=  2.6957 B= 1.06885 function_to_minimize=  4.3704 size=0.196259
+iter=   15 A= 5.06126 T=  2.6957 B= 1.06885 function_to_minimize=  4.3704 size=0.169705
+iter=   16 A= 5.24868 T= 2.69203 B= 1.08439 function_to_minimize= 3.31468 size=0.178626
+iter=   17 A= 5.24868 T= 2.69203 B= 1.08439 function_to_minimize= 3.31468 size=0.178626
+iter=   18 A= 5.24868 T= 2.69203 B= 1.08439 function_to_minimize= 3.31468 size=0.125117
+iter=   19 A= 5.12711 T= 2.84997 B= 1.03234 function_to_minimize=  3.2303 size=0.117527
+iter=   20 A= 5.12711 T= 2.84997 B= 1.03234 function_to_minimize=  3.2303 size=0.117527
+iter=   21 A= 5.09275 T=  2.8103 B= 1.04975 function_to_minimize= 3.06408 size=0.0869551
+iter=   22 A= 5.09275 T=  2.8103 B= 1.04975 function_to_minimize= 3.06408 size=0.0869551
+iter=   23 A= 5.09275 T=  2.8103 B= 1.04975 function_to_minimize= 3.06408 size=0.0476483
+iter=   24 A= 5.09275 T=  2.8103 B= 1.04975 function_to_minimize= 3.06408 size=0.0468659
+iter=   25 A= 5.14441 T= 2.73723 B=  1.0662 function_to_minimize= 3.04535 size=0.0468659
+iter=   26 A=  5.1559 T= 2.68315 B= 1.10129 function_to_minimize= 3.00323 size=0.0593097
+iter=   27 A= 5.10523 T= 2.73591 B= 1.07838 function_to_minimize= 2.99838 size=0.0555918
+iter=   28 A= 5.11396 T= 2.76453 B= 1.06585 function_to_minimize= 2.99662 size=0.0388992
+iter=   29 A= 5.11534 T= 2.72318 B= 1.08966 function_to_minimize= 2.98115 size=0.0375975
+iter=   30 A=  5.1337 T= 2.71218 B= 1.08963 function_to_minimize= 2.97226 size=0.0242089
+iter=   31 A=  5.1337 T= 2.71218 B= 1.08963 function_to_minimize= 2.97226 size=0.0242089
+iter=   32 A=  5.1337 T= 2.71218 B= 1.08963 function_to_minimize= 2.97226 size=0.0152331
+iter=   33 A=  5.1337 T= 2.71218 B= 1.08963 function_to_minimize= 2.97226 size=0.0142902
+iter=   34 A= 5.12821 T= 2.72812 B= 1.08128 function_to_minimize= 2.97057 size=0.0137088
+iter=   35 A= 5.12821 T= 2.72812 B= 1.08128 function_to_minimize= 2.97057 size=0.0129487
+converged to minimum at
+iter=   36 A= 5.12467 T= 2.73267 B=   1.081 function_to_minimize= 2.97054 size=0.00943142
+
+The estimated lifetime is thus: 2.73267 
