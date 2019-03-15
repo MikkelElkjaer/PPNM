@@ -23,6 +23,7 @@ void* throw_darts(void* param){
 		if (d <= 0.5) N_in++;
 	}
 	data->N_in = N_in;
+	return NULL;
 }
 
 int main(void){
