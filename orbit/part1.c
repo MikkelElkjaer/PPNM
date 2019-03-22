@@ -1,5 +1,5 @@
 #include<gsl/gsl_odeiv2.h>
-#include<gsl/gsl_errno.h> //necessary????
+#include<gsl/gsl_errno.h>
 
 int ode_part1(double t, const double y[], double dydt[], void* params){
 

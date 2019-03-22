@@ -10,8 +10,6 @@ int main(){
 	double comparison = 1/(1+exp(-1*(x-1/2)));
 	printf("%g %g %g\n", x, part1(x), comparison);
 	}
-	// MANGLER: comparison with analytic result!! -----------------------------
-	
 
 	//part2:
 
