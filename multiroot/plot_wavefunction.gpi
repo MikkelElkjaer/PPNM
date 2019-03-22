@@ -1,0 +1,5 @@
+set terminal svg background 'white'
+plot for [j=0:2] \
+	'hydrogen_data.txt' index j using 1:2 with lines title 'Wavefct by Shooting Method', \
+        'hydrogen_data.txt' index 2 using 1:3 with lines linewidth 4 dashtype (10,20) title 'Analytical Wavefct: r*exp(-r)'
+
