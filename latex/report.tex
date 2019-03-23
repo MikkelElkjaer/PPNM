@@ -1,0 +1,55 @@
+\documentclass[twocolumn]{article}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc} % UTF8 input encoding
+\usepackage[T1]{fontenc} % font encoding
+\usepackage{amsmath, amssymb, mathtools, bm, nicefrac, mathrsfs} % matematik-pakker
+\raggedbottom
+\newcommand{\sub}[1]{_{\mathrm{#1}}}
+% make \abs{} as I like it:
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+	\DeclarePairedDelimiter\norm{\lVert}{\rVert}
+	\makeatletter
+	\let\oldabs\abs
+	\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+	\let\oldnorm\norm
+	\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
+
+\begin{document}
+\title{Exercise "latex" - Error Function (ODE representation)}
+\date{}
+\author{Mikkel Elkjær Pedersen}
+\maketitle
+
+\section{Error Function}
+In this report we briefly describe the error function.
+The error function arises in many branches of mathematics and physics. As a basic example, we first consider statistics.
+The error function, erf(x), is closely related to the standard normal distribution,
+as it exactly describes the probability for a standard normally distributed random variable $X$ to yield a value in the interval
+$[-x,x]$, where x is a non-negative number. Thus the error function is a heavily studied function in mathematics.\\
+
+In figure \ref{fig:erf} the ODE-representation of the error function is shown. Recalling the standard normal distribution, that is the Gaussian with
+mean $0$ and variance $0.5$, it is clear that the error function is just the derivative of the Gaussian. This is just another way of stating
+the statistical remark above. Thus $\mathrm{erf}(0)=0$ is a natural initial condition when calculating the ODE-representation by numerically integrating.
+One may also implement the property of the error function that it is an odd function, that is $\mathrm{erf}(-x) = - \mathrm{erf}(x)$ for any real $x$.
+This is of course a direct consequence of the Gaussian with mean $0$ being even. When numerically integrating it is of great importance to
+provide a small enough step around $x=0$ to get a proper ODE-representation - for $x$'es farther from $0$ the step size can be increased
+quite a lot as the function is very flat for $\abs{x} > 3$.\\
+
+As a last remark we give an example of how to produce the error function with an experiment. A typical laser beam has a Gaussian intensity distribution
+perpendicularly to the propagation direction of the light. Thus if one measures the intensity of the laser beam perpendicularly to its propagation 
+- e.g. with a photodiode -, one may use the "knife edge method" to characterize the laser beam. That is, one carefully blocks an increasingly
+larger part of the beam by inserting a straight sharp object in between the laser and the photo diode. 
+If one registers the beam intensity as a function of how far the knife has "cut" through the laser beam one should produce exactly the error function
+assuming the laser beam is Gaussian. One may then carry out this method in two mutually perpendicular directions, both of whom are perpendicular
+to the beam propagation, to acchieve a 2D profile of the laser beam. Thus it can be examined if for instance the waist of the beam are of equal
+size horizontally as vertically or if the beam profile is in fact Gaussian at all.
+
+\begin{figure}
+\input{plot-cairo.tex}
+\caption{ODE representation of the error function, erf(x).}
+\label{fig:erf}
+\end{figure}
+
+
+\end{document}
