@@ -1,0 +1,12 @@
+set terminal svg background 'white'
+set multiplot layout 2,1 rowsfirst
+
+set xlabel 'x'
+set ylabel 'y'
+# plot of the interpolated data and the table values:
+plot\
+	'out_linear.txt' u 1:2 pt 6 ps 0.5 title 'Linear Interpolation',\
+	'data_linear.txt' u 1:2 with lines title 'Tabulated data'\
+# residual plot:
+plot\
+	'out_linear.txt' u 1:3 pt 2 title 'Residuals'

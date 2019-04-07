@@ -1,0 +1,13 @@
+set terminal svg background 'white'
+set multiplot layout 2,1 rowsfirst
+
+set xlabel 'x'
+set ylabel 'y'
+# plot of the integrated spline and the analytical integral:
+plot\
+        'out_linear.txt' u 1:4 pt 6 ps 0.5  title 'Integrated Linear Spline',\
+        'out_linear.txt' u 1:5 with lines title 'Analytical Integral'\
+# residual plot:
+plot\
+        'out_linear.txt' u 1:6 title 'Residuals'
+

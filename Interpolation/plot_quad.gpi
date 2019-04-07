@@ -1,0 +1,5 @@
+set term svg background 'white'
+set key left top
+plot \
+	'out_quad.txt' u 1:2 with lines title 'qspline',\
+	'data_quad.txt' u 1:2 title 'Table'
