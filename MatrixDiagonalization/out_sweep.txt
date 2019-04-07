@@ -1,0 +1,13 @@
+The number of sweeps needed to reach converge for a particular 5x5 matrix is: 6 
+This is V^T*A*V: 
+-106 -2.84e-14 4.44e-15 5.48e-07 1.7e-09 
+-2.85e-14 -9.99 -4.44e-16 1.37e-11 2.31e-14 
+6.66e-15 3.55e-15 21.6 -1.39e-13 4.49e-14 
+5.48e-07 1.37e-11 -1.39e-13 54.7 -3.73e-14 
+1.7e-09 2.84e-14 7.11e-14 -3.55e-14  323 
+The diagonal elements should match these: 
+-106 
+-9.99 
+21.6 
+54.7 
+323 

@@ -1,0 +1,2 @@
+value-by-value method: Square matrix of size 100. 100 eigenvalues were found in 4.35129 seconds 
+cyclic method: Square matrix of size 100. A full diagonalization was done in 0.075849 seconds 

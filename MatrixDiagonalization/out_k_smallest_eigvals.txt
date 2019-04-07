@@ -1,0 +1,26 @@
+This is from the k_eigenvalues-routine: 
+This many sweeps where needed to get the 3 smallest/largest eigenvalues: 78 
+This is V^T*A*V: 
+ -74 -3.64e-07 -7.7e-08 -1.12e-08 3.7e-07 
+-3.64e-07 -35.1 2.99e-07 -2.57e-07 -3.16e-07 
+-7.7e-08 2.99e-07 4.51 -3.74e-14 -1.09e-07 
+-1.12e-08 -2.57e-07 -4.53e-14  201 85.9 
+3.7e-07 -3.16e-07 -1.09e-07 85.9  122 
+The first 3 diagonal elements should match these: 
+-74 
+-35.1 
+4.51 
+This is from the sweep-routine: 
+This many sweeps where needed to get the full decomposition: 6 
+This is V^T*A*V: 
+ -74 -3.02e-11 1.02e-14 -1.78e-15 -3.2e-14 
+-3.02e-11 -35.1 6.55e-15 -2.89e-09 1.19e-09 
+8.55e-15 6.44e-15 4.51 -1.1e-08 6.5e-12 
+-3.55e-15 -2.89e-09 -1.1e-08 66.8 3.45e-13 
+-2.84e-14 1.19e-09 6.49e-12 3.41e-13  256 
+The diagonal elements should match these: 
+-74 
+-35.1 
+4.51 
+66.8 
+256 
