@@ -1,0 +1,11 @@
+These are the fitting coefficients c0, c1, c2: 
+6.99067 0.990473 -1.99641 
+ 
+c0, c1, c2 plus/minus their standard deviation: 
+7.4123 1.48865 -1.85212 
+6.56903 0.492296 -2.1407 
+ 
+The Covariance matrix: 
+ 0.17778 0.049346 -0.052768 
+0.049346  0.24818 -0.045846 
+-0.052768 -0.045846  0.02082 
