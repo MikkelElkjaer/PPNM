@@ -1,0 +1,41 @@
+Here is part A with analytical Jacobians:
+Root of A*x*y=1, exp(-x)+exp(-y) = 1+1/A with A=10000 is: x=8.2590833, y=1.2074635e-05
+Number of steps: 24 
+Number of function calls: 67 
+Minimum of the Rosenbrock function is at: x=0.99998838, y=0.99997646
+Number of steps: 85 
+Number of function calls: 461 
+Minimum of the Himmelblau function is at: x=2.9999976, y=2.0000106
+Number of steps: 5 
+Number of function calls: 6 
+
+
+Here is part B with numerical Jacobians:
+Root of A*x*y=1, exp(-x)+exp(-y) = 1+1/A with A=10000 is: x=8.2593187, y=1.2074299e-05
+Number of steps: 24 
+Number of function calls: 115 
+Minimum of the Rosenbrock function is at: x=0.99993765, y=0.99987445
+Number of steps: 85 
+Number of function calls: 631 
+Minimum of the Himmelblau function is at: x=2.9999975, y=2.000011
+Number of steps: 5 
+Number of function calls: 16 
+
+
+Here is part C with refined linesearch: 
+Root of A*x*y=1, exp(-x)+exp(-y) = 1+1/A with A=10000 is: x=5.7219107, y=1.7477304e-05
+Number of steps: 73 
+Number of function calls: 293 
+Minimum of the Rosenbrock function is at: x=0.99790051, y=0.99579861
+Number of steps: 16 
+Number of function calls: 62 
+Minimum of the Himmelblau function is at: x=2.9999975, y=2.000011
+Number of steps: 5 
+Number of function calls: 16 
+
+From the GSL-library routines:
+Rosenbrock minimum with the same intial guess and precision demands:
+iterations=129, functions calls=144, x=1, y=1 
+
+Himmelblau minimum with the same initial guess and precision demands:
+iterations=14, functions calls=17, x=3, y=2 
