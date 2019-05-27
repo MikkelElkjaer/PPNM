@@ -3,6 +3,7 @@
 #include<gsl/gsl_blas.h>
 
 void QR_GS_solve(const gsl_matrix *Q, const gsl_matrix *R, const gsl_vector *b, gsl_vector *x){
+/* solves Q*R*x=b for x */
 	gsl_blas_dgemv(CblasTrans, 1, Q, b, 0, x); // computes Q^T*b and saves it in x
 	/* do in-place back-substitution: */
 	for(int i=x->size -1;i>=0;i--){
