@@ -1,0 +1,19 @@
+INT_MAX is 2147483647
+My max int is 2147483647
+INT_MAX in the for-loop reached: 2147483647
+and then k reached: 2147483647 
+INT_MIN is -2147483648 
+My min int is -2147483648 
+INT_MIN in the for-loop reached: -2147483648
+and k reached: -2147483648 
+FLT_EPS= 0.0000001192, while loop gives: 0.0000001192 
+for loop gives: 0.0000001192 
+DBL_EPSILON = 2.2204460492503130808e-16, while for-loop gives: 2.2204460492503130808e-16 
+LDBL_EPSILON = 1.084202172485504434007453e-19, while while-loop gives: 1.084202172485504434007453e-19 
+sum_up_float reached 15.4036827087 
+sum_down_float reached 18.8079185486 
+sum_up_double reached 20.966165971962311687 
+sum_down_double reached 20.966165973358169339 
+Note that the difference of the doubles is far less than for 
+ the floats (the washing out of precision is far less impactful 
+abs(a-b)<tau 
