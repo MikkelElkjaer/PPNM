@@ -6,7 +6,7 @@ all: out.txt
 out.txt: main
 	./$< > $@
 
-main: Integrator.o
+main: Integrator.o main.o
 
 clean:
 	$(RM) *.o out.txt main
