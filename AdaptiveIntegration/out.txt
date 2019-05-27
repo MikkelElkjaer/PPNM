@@ -1,0 +1,12 @@
+The integral of sqrt(x) on [0,1] is found to be: 0.666678
+The error estimate is: 0.000119717
+The number of function calls used: 84
+The integral of 1/sqrt(x) on [0,1] is found to be: 2
+The error estimate is: 0.000313291
+The number of function calls used: 17188
+The integral of ln(x)/sqrt(x) on [0,1] is found to be: -4
+The error estimate is: 0.000526167
+The number of function calls used: 30028
+The integral of 4*sqrt(1-(1-x)*(1-x)) on [0,1] is found to be: 3.141592653589793116
+The error estimate is: 1.18888e-11
+The number of function calls used: 411316
