@@ -1,0 +1,7 @@
+set terminal svg background 'white'
+
+f(x) = x**(1/3.0)
+set xrange [1:10]
+plot \
+	'out.txt' u 1:2 with lines title 'Cubic Root from ODE',\
+	f(x) with lines linestyle 2 dashtype 2 linewidth 3 title 'Cubic Root'

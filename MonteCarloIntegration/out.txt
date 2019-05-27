@@ -1,0 +1,12 @@
+Using 10000 points we get for test function 1:
+Result = 2.54435
+Error = 0.00887592
+The actual result is 2.55228
+Using 1000000 points we get for test function 2:
+Result = 0.990589
+Error = 0.00616598
+The result should be close to (and less than) 1
+Using 1000000 points we get for the highly singular test function 3:
+Result = 1.37557
+Error = 0.00469898
+The result should be approx. 1.39320393

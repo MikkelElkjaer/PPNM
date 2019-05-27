@@ -1,0 +1,5 @@
+set terminal svg background 'white'
+set logscale x
+set ylabel 'Error'
+set xlabel 'N'
+plot 'out_error_Ndep.txt' u 1:2 title 'Error'

@@ -1,0 +1,13 @@
+Newton's method with back-tracking linesearch:
+Minimum of the Rosenbrock function is at: x=1.0000007, y=1.0000013
+Number of steps: 105, using precision: eps=1e-05, and starting point: (1.5,1.5) 
+Minimum of the Himmelblau function is at: x=2.9999976, y=2.0000106
+Number of steps: 5, using precision: eps=1e-05, and starting point: (4.4,4.2) 
+
+
+Quasi-Newton method with Broyden's update: 
+(Note that the starting points have to be closer to the minima!)
+Minimum of the Rosenbrock function is at: x=1.0035432, y=1.0071133
+Number of steps: 1989, using precision: eps=1e-05, and starting point: (1.2,1.2) 
+Minimum of the Himmelblau function is at: x=-3.7793144, y=-3.2831893
+Number of steps: 38, using precision: eps=1e-05, and starting point: (4,3.8) 
