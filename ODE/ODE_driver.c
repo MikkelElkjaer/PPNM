@@ -34,5 +34,6 @@ int ODE_driver(gsl_vector* tlist, gsl_matrix* ylist, double b, double h, double 
 		}
 		if(err>0) h*=pow(tol/err,0.25)*0.95; else h*=2;
 	}
+gsl_vector_free(y); gsl_vector_free(yh); gsl_vector_free(dy);
 return j; // return the index of the last element of tlist and last column of ylist
 }
